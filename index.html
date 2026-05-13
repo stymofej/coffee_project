@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 </head>
 <body>
     <div class="box">
@@ -22,11 +28,110 @@
                     </div>
                     <img src="img/Group 7.png" alt="">
                 </nav>
-                <div class="head_box"></div>
+                <div class="head_item1">
+                    <h3>Welcome</h3>
+                    <h1>We serve the <br> richest coffee in <br> the city!</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                    <button>Order Now</button>
+                </div>
             </div>
         </header>
-        <main></main>
+        <main>
+            <section class="sect1">
+                <div class="s1_box">
+                    <div class="s1_i1">
+                        <img src="img/Vector.png" alt="">
+                        <p>Hot Coffee</p>
+                    </div>
+                    <div class="s1_i1">
+                        <img src="img/Vector (1).png" alt="">
+                        <p>Cold Coffee</p>
+                    </div>
+                    <div class="s1_i1">
+                        <img src="img/Vector (2).png" alt="">
+                        <p> Cup Coffee</p>
+                    </div>
+                    <div class="s1_i1">
+                        <img src="img/Vector (3).png" alt="">
+                        <p>Dessert</p>
+                    </div>
+                </div>
+            </section>
+            <section class="slider">
+                <h2>our special coffee</h2>
+        <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+        <img src="img/Rectangle 7.png" alt="">
+        <h2>Lungo coffee</h2>
+        <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit,</p>
+        <div class="swiper_item">
+        <h3>Rs. 200</h3>
+        <button>Order Now</button>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <img src="img/Rectangle 7 (1).png" alt="">
+        <h2>Lungo coffee</h2>
+        <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit,</p>
+        <div class="swiper_item">
+        <h3>Rs. 200</h3>
+        <button>Order Now</button>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <img src="img/Rectangle 7 (2).png" alt="">
+        <h2>Lungo coffee</h2>
+        <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit,</p>
+        <div class="swiper_item">
+        <h3>Rs. 200</h3>
+        <button>Order Now</button>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <img src="img/Rectangle 7 (3).png" alt="">
+        <h2>Lungo coffee</h2>
+        <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit,</p>
+        <div class="swiper_item">
+        <h3>Rs. 200</h3>
+        <button>Order Now</button>
+        </div>
+    </div>
+    <div class="swiper-slide">Slide 5</div>
+    <div class="swiper-slide">Slide 6</div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+      </section>
+        </main>
         <footer></footer>
     </div>
+<!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".swiper", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 </body>
 </html>

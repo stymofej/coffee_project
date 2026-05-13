@@ -22,6 +22,7 @@ header{
     background: gold;
     margin-top: 50px;
 
+
 }
 nav{
     width: 100%;
@@ -42,4 +43,132 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
+}
+.head_item1{
+    width: 36%;
+    height: 470px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 80px;
+}
+.head_item1 h1{
+    font-size: 70px;
+    color: white;
+}
+.head_item1 h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    
+}
+.head_item1 p{
+    font-size: 18px;
+    color: white;
+}
+.head_item1 button{
+    width: 170px;
+    height: 55px;
+    background: white;
+    border-radius: 100px;
+    border: none;
+}
+.sect1{
+    width: 100%;
+    background: #E2D9C8;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s1_box{
+    width: 44%;
+    height: 125px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.s1_i1{
+    width: 97px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.sect2{
+    width: 100%;
+    height: 720px;
+    background: #F1F0EE;
+}
+.swiper{
+    width:75%;
+    height: 580px;
+    border: 1px solid black;
+}
+.slider{
+    width: 100%;
+    height: 720px;
+}
+.swiper{
+    width: 75%;
+    height: 570px;
+    border: 2px solid;
+    margin-top: 50px;
+}
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #f7f0e4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 18px;
+      border: 1px solid #dfd4c0;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      padding: 10px;
+      
+}
+.slider h2{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #30261C;
+}
+.swiper-slide img{
+    width: 97%;
+
+    
+}
+.swiper-button-prev{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #E2D9C8;
+    
+}
+.swiper-slide h2{
+    text-align: start;
+}
+.swiper-button-next{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #E2D9C8;
+    
+}
+.swiper-slide p{
+    text-align: start;
 }
